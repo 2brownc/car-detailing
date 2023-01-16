@@ -13,8 +13,8 @@ function CallToActionButton({ text, link }: CallToActionButtonType) {
     <div
       onClick={() => router.push(link)}
       className="
-        my-2
-        mr-10
+        w-fit
+        text-center
         py-2
         px-2
         bg-orange-600

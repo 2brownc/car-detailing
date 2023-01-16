@@ -12,7 +12,7 @@ function HorizontalMenu({ navLinks }: navLinksType) {
           className="
                 appearance-none
                 py-2
-                px-2
+                px-3
                 bg-neutral-900
                 transition-all
                 hover:hover:bg-orange-600 hover:cursor-pointer

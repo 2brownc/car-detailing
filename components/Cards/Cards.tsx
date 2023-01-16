@@ -35,7 +35,7 @@ function Card({ cardData }: cardProps) {
           className="
             hover:scale-110 transition-all duration-500
         ">
-          <div className="   
+          <div className="
             h-[calc(100vw_*_0.5625)]
             md:h-[calc(100vw_*_0.28125)]
           ">
@@ -63,8 +63,8 @@ function Card({ cardData }: cardProps) {
           m-1
         ">
           <span className="
-            bg-zinc-800
-            text-3xl
+            bg-zinc-900
+            text-xl md:text-3xl
             px-2 py-1
           ">
             <span>
@@ -78,8 +78,8 @@ function Card({ cardData }: cardProps) {
           my-3 mx-1
         ">
             <span className="
-            bg-zinc-700
-            text-base
+            bg-slate-900
+            text-sm md:text-base
             px-2 py-1
           ">
               {subtitle}
@@ -100,7 +100,7 @@ type CardsProps = {
 function Cards({ cardsData }: CardsProps) {
   return (
     <div className="
-            grid grid-cols-1 md:grid-cols-2 gap-4 px-4 py-2
+      grid grid-cols-1 md:grid-cols-2 gap-4
     ">
       {
         cardsData.map((cardData: cardType) => (

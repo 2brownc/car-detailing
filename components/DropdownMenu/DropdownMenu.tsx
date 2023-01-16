@@ -10,7 +10,6 @@ function MyDropdown({ label, navLinks }: navLinksType) {
     <Menu>
       <Menu.Button
         className="
-          mr-10
           py-2
           px-2
           border-2 border-orange-600
@@ -46,9 +45,9 @@ function MyDropdown({ label, navLinks }: navLinksType) {
                       flex
                       group
                       w-full
-te          transition-all
-          hover:hover:bg-orange-600 hover:cursor-pointer
-          duration-500
+                      transition-all
+                      hover:hover:bg-orange-600 hover:cursor-pointer
+                      duration-500
                     `}
                     onClick={() => router.push(link)}
                   >

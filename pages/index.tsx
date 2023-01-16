@@ -18,10 +18,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-screen">
+
+      <div>
         <NavBarTop navLinks={navBarLinks.navLinks} />
       </div>
-      <div className="w-screen">
+
+      <div>
         <Carousel slidesData={slidesData} />
       </div>
 
@@ -45,9 +47,10 @@ const Home: NextPage = () => {
         We provide a broad range of services. Check them out!
       </div>
 
-      <div>
+      <div className="py-4 px-2">
         <Cards cardsData={cardsData} />
       </div>
+
 
       <div>
         <Footer />
