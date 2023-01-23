@@ -3,7 +3,7 @@ import React from 'react';
 import { navLinksType } from '../../types/navLinks';
 import HorizontalMenu from '../HorizontalMenu/HorizontalMenu';
 import DropdownMenu from '../DropdownMenu/DropdownMenu';
-import CallToActionButton, { CallToActionButtonType } from '../CallToActionButton/CallToActionButton';
+import CallToActionButton from '../CallToActionButton/CallToActionButton';
 
 function NavBarTop({ navLinks }: navLinksType) {
   return (
@@ -11,9 +11,8 @@ function NavBarTop({ navLinks }: navLinksType) {
       className="
           flex flex-row flex-wrap gap-3
           px-2 py-1
-          bg-neutral-900
-          text-neutral-50
           shadow-2xl shadow-neutral-400
+          bg-black text-white
         "
     >
       <div

@@ -5,8 +5,8 @@ function Footer() {
     <div
       className="
           grid grid-rows-2
-          bg-neutral-900
-          text-neutral-50
+          bg-black
+          text-white
           shadow-2xl shadow-neutral-400
           items-center justify-center place-items-center
           p-5 gap-5
@@ -46,7 +46,15 @@ function Footer() {
           </a>
         </span>
       </div>
-      <div>PK DETAILING</div>
+      <div className="
+        font-['Passion_One']
+        font-bold
+        text-xl
+        md:text-3xl
+        tracking-wider
+      ">
+        PK DETAILING
+      </div>
     </div>
 
   );

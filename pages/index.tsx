@@ -13,16 +13,6 @@ import Footer from '../components/Footer/Footer';
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>PK DETAILING</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-
-      <div>
-        <NavBarTop navLinks={navBarLinks.navLinks} />
-      </div>
-
       <div>
         <Carousel slidesData={slidesData} />
       </div>
@@ -49,11 +39,6 @@ const Home: NextPage = () => {
 
       <div className="py-4 px-2">
         <Cards cardsData={cardsData} />
-      </div>
-
-
-      <div>
-        <Footer />
       </div>
     </>
   )

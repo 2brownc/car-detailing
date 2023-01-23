@@ -29,7 +29,7 @@ function MyDropdown({ label, navLinks }: navLinksType) {
           z-20
           origin-top-right
           divide-y divide-neutral-700
-          bg-neutral-900 shadow-md shadow-black
+          bg-black shadow-md shadow-black
           ring-1 ring-amber ring-opacity-5 focus:outline-none
         "
       >
@@ -46,8 +46,8 @@ function MyDropdown({ label, navLinks }: navLinksType) {
                       group
                       w-full
                       transition-all
-                      hover:hover:bg-orange-600 hover:cursor-pointer
-                      duration-500
+                      hover:hover:bg-orange-800 hover:cursor-pointer
+                      duration-700
                     `}
                     onClick={() => router.push(link)}
                   >
