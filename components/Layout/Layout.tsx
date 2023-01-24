@@ -9,30 +9,28 @@ import Footer from '../Footer/Footer';
 
 function Layout({ children }: any) {
   return (
-      <div className="
-        h-screen
+    <div className="
         flex flex-col
+        h-screen
+    ">
+
+      <div className="
       ">
-
-        <div className="
-          grow-0
-        ">
-          <NavBarTop navLinks={navBarLinks.navLinks} />
-        </div>
-
-        <div className="
-          grow
-        ">
-          {children}
-        </div>
-
-        <div className="
-          grow-0
-        ">
-          <Footer />
-        </div>
-
+        <NavBarTop navLinks={navBarLinks.navLinks} />
       </div>
+
+      <div className="
+        grow
+      ">
+        {children}
+      </div>
+
+      <div className="
+      ">
+        <Footer />
+      </div>
+
+    </div>
   )
 }
 

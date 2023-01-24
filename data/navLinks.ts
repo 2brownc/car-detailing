@@ -7,12 +7,12 @@ const navBarLinks: navLinksType = {
       link: '/'
     },
     {
-      text: 'INTERIORS',
-      link: '/interiors'
+      text: 'INTERIOR',
+      link: '/interior'
     },
     {
       text: 'EXTERIOR',
-      link: '/exteriors'
+      link: '/exterior'
     },
     {
       text: 'HEADLIGHT',
@@ -22,10 +22,10 @@ const navBarLinks: navLinksType = {
       text: 'POLISHING',
       link: '/polishing'
     },
-    {
-      text: 'CERAMIC COATING',
-      link: '/ceramic-coating'
-    },
+    /*    {
+          text: 'CERAMIC COATING',
+          link: '/ceramic-coating'
+        },*/
     {
       text: 'CONTACT',
       link: '/contact'
