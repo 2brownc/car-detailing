@@ -133,7 +133,7 @@ function Contact() {
   }, [zo.validation?.success]);
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <form ref={zo.ref} name="contactForm">
         <div className="
       flex flex-col
