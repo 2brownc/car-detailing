@@ -15,7 +15,7 @@ function AlternateList(
       {
         list.map((item, index) => (
           <li className={`
-            border-b-2 border-pt_border
+            border-b-2 border-pt_divider
             py-2
             ${index % 2 === 0 ? `${colorA}` : `${colorB}`}
             ${index === 0 ? 'text-lg' : null}
