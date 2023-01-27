@@ -21,7 +21,7 @@ function Checkbox({
               ">
         <input
           type="checkbox"
-          className="checkbox"
+          className="checkbox bg-white"
           name={name}
           id={id}
           value={value}

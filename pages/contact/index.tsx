@@ -75,7 +75,7 @@ function FormErrorMessage({ message }: FormErrorMessageProps) {
       text-sm
       text-red-600
       p-2 mt-1 mb-3
-      bg-gray-100
+      bg-amber-50
     ">
       {`${message}`}
     </div>
@@ -148,6 +148,7 @@ function Contact() {
       ">
             Which services are you interested in?
             <div className="
+            bg-orange-50
             border-2 border-slate-300
             shadow-md
             rounded
@@ -179,6 +180,7 @@ function Contact() {
       ">
             Tell us about your car!
             <div className="
+            bg-orange-50
             border-2 border-slate-300
             shadow-md
             rounded
@@ -242,6 +244,7 @@ function Contact() {
       ">
             How can we contact you?
             <div className="
+            bg-orange-50
             border-2 border-slate-300
             shadow-md
             rounded
@@ -429,7 +432,9 @@ function Contact() {
                 Go To Home Page!
               </button>
               : <button
-                className="btn btn-primary btn-wide"
+                className="btn btn-primary btn-wide
+                  bg-pt_button hover:bg-pt_button border-pt_button
+                "
                 type="submit"
                 onClick={onSubmit}
               >
