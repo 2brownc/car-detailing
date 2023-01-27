@@ -12,9 +12,11 @@ function InfoCard({
           md:w-3/5 lg:w-2/5
           p-4
           border border-black
-          bg-gradient-to-l from-teal-100 to-sky-100
-          hover:from-teal-200 hover:to-sky-200
+          bg-gradient-to-r from-[#fff0dc] to-[#fef8e3]
+          hover:to-[#fff3d4] hover:from-[#fff3f3]
           shadow-lg hover:shadow-2xl
+          transition-all
+          duration-500
         ">
       <div className="
             text-lg font-bold

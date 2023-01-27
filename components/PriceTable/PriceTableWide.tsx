@@ -15,7 +15,7 @@ function AlternateList(
       {
         list.map((item, index) => (
           <li className={`
-            border-b-2 border-indigo-100
+            border-b-2 border-pt_border
             py-2
             ${index % 2 === 0 ? `${colorA}` : `${colorB}`}
             ${index === 0 ? 'text-lg' : null}
@@ -53,7 +53,7 @@ function PriceTableWide({
         md:w-3/5 lg:w-2/5
     ">
       <div className="
-          bg-indigo-900 text-white
+          bg-pt_primary text-white
           font-extrabold
           tracking-wide
           p-3
@@ -63,7 +63,7 @@ function PriceTableWide({
         {title}
       </div>
       <div className="
-          bg-gradient-to-r from-cyan-500 to-blue-500
+          bg-gradient-to-r from-pt_secondary to-pt_tertiary
           border-x-2 border-x-indigo-900
           text-black
           p-3
@@ -76,16 +76,13 @@ function PriceTableWide({
         <div className="
             text-3xl
             font-bold
-            bg-clip-text text-transparent bg-gradient-to-r
-            to-orange-200 from-amber-300
-    
           ">
           {price}
         </div>
       </div>
       <div className="
-          border-x-2 border-indigo-900 border-b-2 border-b-indigo-200
-          bg-sky-100
+          border-x-2 border-pt_border
+          bg-pt_body
           px-2
           text-left
         ">
@@ -96,12 +93,14 @@ function PriceTableWide({
         />
       </div>
       <div className="
-          border-x-2 border-indigo-900 border-b-2
-          bg-sky-100
+          border-x-2 border-pt_border border-b-2
+          bg-pt_body
           p-3
         ">
         <button
           className="btn btn-primary btn-wide
+          bg-pt_button hover:bg-pt_button
+          border-pt_button
           "
           onClick={() => route.push(link)}
         >
