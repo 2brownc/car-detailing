@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
 import { navLinksType } from '../../types/navLinks';
 import HorizontalMenu from '../HorizontalMenu/HorizontalMenu';
@@ -6,6 +7,10 @@ import DropdownMenu from '../DropdownMenu/DropdownMenu';
 import CallToActionButton from '../CallToActionButton/CallToActionButton';
 
 function NavBarTop({ navLinks }: navLinksType) {
+  const router = useRouter();
+  const goHome = () => {
+    router.push('/');
+  };
   return (
     <div
       className="
@@ -18,6 +23,7 @@ function NavBarTop({ navLinks }: navLinksType) {
       <div
         className="
         "
+        onClick={goHome}
       >
         <img
           src="/logo.png"
@@ -26,7 +32,13 @@ function NavBarTop({ navLinks }: navLinksType) {
             absolute
             w-36 h-36
             place-self-start
-            -top-1 z-40"
+            -top-1 z-40
+            hover:rotate-[13deg]
+            hover:scale-110
+            hover:cursor-pointer
+            transition-all
+            duration-500
+            "
         />
       </div>
       <div
@@ -54,7 +66,13 @@ function NavBarTop({ navLinks }: navLinksType) {
           text-3xl
           md:text-5xl
           tracking-wider
+          hover:cursor-pointer
+          hover:scale-110
+          hover:text-orange-500
+          transition-all
+          duration-500
         "
+        onClick={goHome}
       >
         PK DETAILING
       </div>

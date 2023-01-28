@@ -86,6 +86,7 @@ function Slide({ text, link, image }: slideType) {
           </div>
           <div className="
             hover:scale-125 hover:cursor-pointer
+            hover:-rotate-[45deg]
             self-center
             transition-all
             duration-500

@@ -101,6 +101,7 @@ function PriceTableWide({
           className="btn btn-primary btn-wide
           bg-pt_button hover:bg-pt_button
           border-pt_button
+          hover:scale-[1.05]
           "
           onClick={() => route.push(link)}
         >

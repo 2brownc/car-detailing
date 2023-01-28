@@ -17,7 +17,7 @@ function Footer() {
       ">
         <span className="  
           px-2 py-1
-          hover:bg-amber-800
+          hover:bg-orange-700
           transition-all
           duration-500
         ">
@@ -32,7 +32,7 @@ function Footer() {
         </span>
         <span className="  
           px-2 py-1
-          hover:bg-amber-800
+          hover:bg-orange-700
           transition-all
           duration-500
         ">

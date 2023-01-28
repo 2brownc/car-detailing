@@ -1,8 +1,4 @@
-import type { NextPage } from 'next'
-
 import { navBarLinks } from '../../data/navLinks';
-import { slidesData } from '../../data/slides';
-import { cardsData } from '../../data/cards';
 import NavBarTop from '../NavBarTop/NavBarTop';
 import Footer from '../Footer/Footer';
 
