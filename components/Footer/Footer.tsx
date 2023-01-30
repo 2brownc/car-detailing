@@ -159,7 +159,7 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiOutlinePhone />
-              <span>+32 0473 72 01 34</span>
+              <a href="tel:+32-0473-72-01-34">+32 0473 72 01 34</a>
             </div>
           </li>
           <li className="
