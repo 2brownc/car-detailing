@@ -6,69 +6,7 @@ import { AiTwotoneMail } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 
-import type { slidesType } from "../types/carousel";
 import { cardsData } from '../../data/cards';
-
-
-function Footer2() {
-  return (
-    <div
-      className="
-          grid grid-rows-2
-          bg-black
-          text-white
-          shadow-2xl shadow-neutral-400
-          items-center justify-center place-items-center
-          p-5 gap-5
-        "
-    >
-      <div className="
-        flex flex-row gap-3
-      ">
-        <span className="  
-          px-2 py-1
-          hover:bg-orange-700
-          transition-all
-          duration-500
-        ">
-          <a
-            href="/"
-            className="
-              appearence-none
-              hover:mouse-pointer 
-          ">
-            Home
-          </a>
-        </span>
-        <span className="  
-          px-2 py-1
-          hover:bg-orange-700
-          transition-all
-          duration-500
-        ">
-          <a
-            href="/contact"
-            className="
-              appearence-none
-              hover:mouse-pointer 
-          ">
-            Contact
-          </a>
-        </span>
-      </div>
-      <div className="
-        font-['Passion_One']
-        font-bold
-        text-xl
-        md:text-3xl
-        tracking-wider
-      ">
-        PK DETAILING
-      </div>
-    </div>
-
-  );
-}
 
 function Footer() {
   const router = useRouter();
