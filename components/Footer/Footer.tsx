@@ -1,10 +1,10 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
-import { AiOutlineFacebook } from 'react-icons/ai';
-import { FiTwitter } from 'react-icons/fi';
+import { AiFillPhone } from 'react-icons/ai';
+import { AiTwotoneMail } from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
 
 import type { slidesType } from "../types/carousel";
 import { cardsData } from '../../data/cards';
@@ -158,7 +158,7 @@ function Footer() {
                 hover:bg-orange-600
               ">
             <div className="flex flex-row items-center gap-1">
-              <AiOutlinePhone />
+              <AiFillPhone />
               <a href="tel:+32-0473-72-01-34">+32 0473 72 01 34</a>
             </div>
           </li>
@@ -169,7 +169,7 @@ function Footer() {
                 hover:bg-orange-600
               ">
             <div className="flex flex-row items-center gap-1">
-              <AiOutlineMail />
+              <AiTwotoneMail />
               <a href="mailto:pkdetailing@gmail.com">pkdetailing@gmail.com</a>
             </div>
           </li>
@@ -180,7 +180,7 @@ function Footer() {
                 hover:bg-orange-600
               ">
             <div className="flex flex-row items-center gap-1">
-              <AiOutlineFacebook />
+              <AiFillFacebook />
               <a href="https://facebook.com/pkdetialing">
                 pkdetailing
               </a>
@@ -193,7 +193,7 @@ function Footer() {
                 hover:bg-orange-600
               ">
             <div className="flex flex-row items-center gap-1">
-              <FiTwitter />
+              <AiOutlineTwitter />
               <a href="https://twitter.com/@pkdetailing">
                 @pkdetailing
               </a>
