@@ -4,7 +4,8 @@ import { useRouter } from 'next/router';
 import { AiFillPhone } from 'react-icons/ai';
 import { AiTwotoneMail } from 'react-icons/ai';
 import { AiFillFacebook } from 'react-icons/ai';
-import { AiOutlineTwitter } from 'react-icons/ai';
+import { AiFillInstagram } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 import { cardsData } from '../../data/cards';
 
@@ -97,7 +98,7 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiFillPhone />
-              <a href="tel:+32-0473-72-01-34">+32 0473 72 01 34</a>
+              <a href="tel:+32489563824">+32 489 563 824</a>
             </div>
           </li>
           <li className="
@@ -108,7 +109,7 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiTwotoneMail />
-              <a href="mailto:pkdetailing@gmail.com">pkdetailing@gmail.com</a>
+              <a href="mailto:pkdetailingauto@gmail.com">pkdetailingauto@gmail.com</a>
             </div>
           </li>
           <li className="
@@ -119,8 +120,8 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiFillFacebook />
-              <a href="https://facebook.com/pkdetialing">
-                pkdetailing
+              <a href="https://www.facebook.com/profile.php?id=100089003496003">
+                Pkdetailing
               </a>
             </div>
           </li>
@@ -131,9 +132,22 @@ function Footer() {
                 hover:bg-orange-600
               ">
             <div className="flex flex-row items-center gap-1">
-              <AiOutlineTwitter />
-              <a href="https://twitter.com/@pkdetailing">
-                @pkdetailing
+              <AiFillInstagram />
+              <a href="https://instagram.com/pk_autodetailing?igshid=YmMyMTA2M2Y=">
+                pk_autodetailing
+              </a>
+            </div>
+          </li>
+          <li className="
+                transition-all
+                duration-500
+                p-1
+                hover:bg-orange-600
+              ">
+            <div className="flex flex-row items-center gap-1">
+              <AiFillLinkedin />
+              <a href="https://www.linkedin.com/mwlite/company/pkdetailing">
+                pkdetailing
               </a>
             </div>
           </li>
@@ -153,10 +167,9 @@ function Footer() {
         </div>
         <div>
           <address className="flex flex-col">
-            <span>Tiegemberg 441,</span>
-            <span>Tongrinne,</span>
-            <span>Namur,</span>
-            <span>Belgium - 5140</span>
+            <span>Afrikalaan 73,</span>
+            <span>9000 Gent,</span>
+            <span>Belgium</span>
           </address>
         </div>
       </div>
