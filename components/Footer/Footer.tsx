@@ -68,6 +68,7 @@ function Footer() {
                 duration-500
                 p-1
                 hover:bg-orange-600
+                hover:cursor-pointer
               ">
                 <div onClick={() => goTo(service.link)}>
                   {service.title}

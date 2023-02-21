@@ -16,7 +16,7 @@ function Layout({ children }: any) {
       </div>
 
       <div className="
-        pb-20
+        pb-5
         grow
         bg-gradient-to-br
         from-[#ffe19a] via-[#fff8e7] to-[#fff0ea]
