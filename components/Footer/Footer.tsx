@@ -125,7 +125,7 @@ function Footer() {
                 href="https://www.facebook.com/profile.php?id=100089003496003"
                 target="_blank"
               >
-                Pkdetailing
+                Facebook
               </a>
             </div>
           </li>
@@ -141,7 +141,7 @@ function Footer() {
                 href="https://instagram.com/pk_autodetailing?igshid=YmMyMTA2M2Y="
                 target="_blank"
               >
-                pk_autodetailing
+                Instagram
               </a>
             </div>
           </li>
@@ -157,7 +157,7 @@ function Footer() {
                 href="https://www.linkedin.com/mwlite/company/pkdetailing"
                 target="_blank"
               >
-                pkdetailing
+                LinkedIn
               </a>
             </div>
           </li>
