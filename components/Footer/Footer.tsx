@@ -121,7 +121,10 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiFillFacebook />
-              <a href="https://www.facebook.com/profile.php?id=100089003496003">
+              <a
+                href="https://www.facebook.com/profile.php?id=100089003496003"
+                target="_blank"
+              >
                 Pkdetailing
               </a>
             </div>
@@ -134,7 +137,10 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiFillInstagram />
-              <a href="https://instagram.com/pk_autodetailing?igshid=YmMyMTA2M2Y=">
+              <a
+                href="https://instagram.com/pk_autodetailing?igshid=YmMyMTA2M2Y="
+                target="_blank"
+              >
                 pk_autodetailing
               </a>
             </div>
@@ -147,7 +153,10 @@ function Footer() {
               ">
             <div className="flex flex-row items-center gap-1">
               <AiFillLinkedin />
-              <a href="https://www.linkedin.com/mwlite/company/pkdetailing">
+              <a
+                href="https://www.linkedin.com/mwlite/company/pkdetailing"
+                target="_blank"
+              >
                 pkdetailing
               </a>
             </div>
