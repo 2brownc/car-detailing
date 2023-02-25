@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer';
 function sendEmail(name: any, message: any) {
   const from = `"PK Detailing Website Contact Form" <${process.env.EMAIL_FROM}>`;
   const to = `${process.env.EMAIL_TO}`;
-  const subject = `${name} - Vragen over asbest certificering`;
+  const subject = `${name} - Auto detailing onderzoek`;
   const text = `${message}`;
   // const html = `<p>${message}</p>`;
 
