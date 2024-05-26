@@ -8,6 +8,15 @@ This project showcases a car detailing website built using modern web developmen
 - Online Booking: Enhances customer experience by allowing visitors to schedule appointments directly on the website
 - Robust Data Validation: Utilizes Zod to ensure accurate and reliable user input for bookings
 
+## Gallery
+
+Home Page:
+
+![HomePage](screenshots/cd.home.webp)
+
+Online Booking:
+![Online Booking](screenshots/cd.contact.form.webp)
+
 ## Tech Stack
 
 - TypeScript: Enhances code maintainability and reduces errors by adding static type checking to JavaScript, improving code readability and preventing runtime type issues
@@ -25,7 +34,7 @@ This project showcases a car detailing website built using modern web developmen
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/car-detailing.git
+git clone https://github.com/2brownc/car-detailing.git
 ```
 
 Install the dependencies:
