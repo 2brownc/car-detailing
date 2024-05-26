@@ -1,27 +1,49 @@
-# Next.js + Tailwind CSS Example
+# A Next.js Website for a Car Detailing Shop
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project showcases a car detailing website built using modern web development technologies for a Car Detailing Shop. It provides a user-friendly interface to explore the company's services and conveniently book appointments online.
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- Clear Service Presentation: Effectively communicates the services offered by Car Detailing Shop
+- Online Booking: Enhances customer experience by allowing visitors to schedule appointments directly on the website
+- Robust Data Validation: Utilizes Zod to ensure accurate and reliable user input for bookings
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech Stack
 
-## How to use
+- TypeScript: Enhances code maintainability and reduces errors by adding static type checking to JavaScript, improving code readability and preventing runtime type issues
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- Next.js: Simplifies building server-rendered and statically generated web applications, offering features like routing, data fetching, and code-splitting for optimal performance and SEO
+
+- React.js: Provides a component-based UI library for building dynamic and interactive user interfaces, allowing for efficient code reuse and a focus on component state management
+
+- Tailwind CSS: Streamlines the styling process with a utility-first approach, offering pre-built CSS classes for common design elements, enabling rapid development and consistent UI
+
+- Zod: Ensures robust form validation by defining data schemas that guarantee the structure and format of user input, preventing unexpected data issues and improving data integrity
+
+## Setup
+
+Clone the repository:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/your-username/car-detailing.git
 ```
+
+Install the dependencies:
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+yarn install
 ```
+
+Build the app:
 
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+yarn build
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Start the app:
+
+```bash
+yarn start
+```
+
+The website runs locally on http://localhost:3000 during development.
