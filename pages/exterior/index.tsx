@@ -1,95 +1,97 @@
-import
-PriceTable,
-{ PriceTableType }
-  from '../../components/PriceTable/PriceTable';
+import PriceTable, {
+  PriceTableType,
+} from "../../components/PriceTable/PriceTable";
 
-const STAP1: PriceTableType = {
-  title: "STAP 1",
+const STEP1: PriceTableType = {
+  title: "STEP 1",
   subtitle: "Basic Wash",
   price: "€ 60",
   items: {
     list: [
-      "Auto krasloos wassen met neutrale shampoo",
-      "Banden ontvetten en aanbrengen van een dressing",
-      "Deurstijlen reinigen",
-      "Grondig reinigen velgen",
-      "Krasloos drogen",
-      "Ramen reinigen",
-      "Wielkasten reinigen",
+      "Car wash without scratches using neutral shampoo",
+      "Degrease tires and apply dressing",
+      "Clean door jambs",
+      "Thoroughly clean rims",
+      "Dry without scratches",
+      "Clean windows",
+      "Clean wheel arches",
     ],
     colorA: "",
     colorB: "",
   },
-  link: '/contact',
+  link: "/contact",
 };
 
-const STAP2: PriceTableType = {
-  title: "STAP 2",
-  subtitle: "Motorruimte Reinigen",
+const STEP2: PriceTableType = {
+  title: "STEP 2",
+  subtitle: "Engine Bay Cleaning",
   price: "€ 65",
   items: {
     list: [
-      "Handwas en drogen van de motorruimte",
-      "Los vuil, bladeren en straatafval verwijderen uit de motorruimte",
-      "Opkuisen van de motorkop (onderkant)",
-      "Plastic en rubber delen krijgen een voeding dat glans en bescherming bied",
-      "Verwijderen en poetsen van alle beschermkappen",
+      "Hand wash and dry the engine compartment",
+      "Remove loose dirt, leaves, and debris from the engine compartment",
+      "Clean the engine head (underside)",
+      "Dressing to plastic and rubber parts to provide shine and protection",
+      "Remove and polish all protective covers",
     ],
     colorA: "",
     colorB: "",
   },
-  link: '/contact',
+  link: "/contact",
 };
 
-const STAP3: PriceTableType = {
-  title: "STAP 3",
+const STEP3: PriceTableType = {
+  title: "STEP 3",
   subtitle: "Wash & Wax",
   price: "€ 145",
   items: {
     list: [
-      "Auto krasloos wassen met neutrale shampoo",
-      "Banden ontvetten en aanbrengen van een dressing",
-      "Beschermende waxlaag aanbrengen",
-      "Clayen van het lakwerk",
-      "Deurstijlen reinigen",
-      "Infoamen met actief schuim",
-      "Krasloos drogen",
-      "Omvat basic exterieur",
-      "Ramen reinigen",
-      "Reinigen uitlaatpijpen",
-      "Wielkasten reinigen",
+      "Scratch-free car wash with neutral shampoo",
+      "Degrease and apply dressing to tires",
+      "Apply a protective wax coating",
+      "Clay bar the paintwork",
+      "Clean door jambs",
+      "Apply active foam",
+      "Scratch-free drying",
+      "Includes basic exterior",
+      "Clean windows",
+      "Clean exhaust pipes",
+      "Clean wheel arches",
     ],
     colorA: "",
     colorB: "",
   },
-  link: '/contact',
+  link: "/contact",
 };
 
 function Exterior() {
   return (
     <div className="mb-5 h-full">
-      <h1 className="
+      <h1
+        className="
         capitalize
         text-4xl
         font-extrabold
         text-center
         m-10
-      ">
+      "
+      >
         Exterior Detailing
       </h1>
-      <div className="
+      <div
+        className="
         flex flex-col md:flex-row gap-3
         justify-center
         m-3 md:m-0
         md:h-[48rem]
-      ">
-        <PriceTable {...STAP1} />
-        <PriceTable {...STAP2} />
-        <PriceTable {...STAP3} />
+      "
+      >
+        <PriceTable {...STEP1} />
+        <PriceTable {...STEP2} />
+        <PriceTable {...STEP3} />
       </div>
     </div>
   );
 }
-
 
 export default Exterior;

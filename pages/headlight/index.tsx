@@ -1,49 +1,50 @@
-import
-PriceTable,
-{ PriceTableType }
-  from '../../components/PriceTable/PriceTable';
+import PriceTable, {
+  PriceTableType,
+} from "../../components/PriceTable/PriceTable";
 
-const STAP1: PriceTableType = {
-  title: "STAP 1",
-  subtitle: "Koplamp renovatie",
+const STEP1: PriceTableType = {
+  title: "STEP 1",
+  subtitle: "Headlight restoration",
   price: "€ 30/lamp",
   items: {
     list: [
-      "Reigen van de koplampen",
-      "Reigen van de koplampen",
-      "Afschuren van gele of doffe schijn",
-      "Polijsten tot perfect resultaat",
-      "Aanbrengen van koplamp wax. Mogelijkheid tot aanbrengen van een koplamp coating (optioneel en tegen meerprijs)",
+      "Cleaning the headlights",
+      "Sanding away yellow or dull shine",
+      "Polishing to a perfect finish",
+      "Applying headlight wax",
     ],
     colorA: "",
     colorB: "",
   },
-  link: '/contact',
+  link: "/contact",
 };
 
 function Headlight() {
   return (
     <div className="mb-5 h-full">
-      <h1 className="
+      <h1
+        className="
         capitalize
         text-4xl
         font-extrabold
         text-center
         m-10
-      ">
+      "
+      >
         Headlight Polish
       </h1>
-      <div className="
+      <div
+        className="
         flex flex-col md:flex-row gap-3
         justify-center
         m-3 md:m-0
         md:h-[32rem]
-      ">
-        <PriceTable {...STAP1} />
+      "
+      >
+        <PriceTable {...STEP1} />
       </div>
     </div>
   );
 }
-
 
 export default Headlight;
