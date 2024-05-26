@@ -124,7 +124,7 @@ function Footer() {
           >
             <div className="flex flex-row items-center gap-1">
               <AiTwotoneMail />
-              <a href="mailto:hipkdetailing@gmail.com">
+              <a href="mailto:hipkdetailing@example.com">
                 hipkdetailing@gmail.com
               </a>
             </div>
