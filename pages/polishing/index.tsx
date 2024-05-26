@@ -39,7 +39,7 @@ const STEP2: PriceTableType = {
 };
 
 const STEP3: PriceTableType = {
-  title: "GOld",
+  title: "Gold",
   subtitle: "Starting at",
   price: "€ 579",
   items: {
